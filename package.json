@@ -1,0 +1,33 @@
+{
+  "name": "ngPrint",
+  "version": "0.1.0",
+  "main": "ngPrint.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gilf/ngPrint.git"
+  },
+  "license": "MIT",
+  "files": [
+    "ngPrint.js",
+    "ngPrint.min.js",
+    "ngPrint.min.js.map",
+    "ngPrint.css",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "coveralls": "2.11.4",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-uglify": "0.9.2",
+    "grunt-ngdocs": "0.2.9",
+    "load-grunt-tasks": "3.3.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/grunt build"
+  }
+}
