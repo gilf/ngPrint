@@ -9,7 +9,7 @@ Installation
 ------------
 
 You can choose your preferred method of installation:
-* Download from github: [angular-moment.min.js](https://raw.github.com/urish/angular-moment/master/angular-moment.min.js)
+* Download from github: [ngPrint.min.js](https://github.com/gilf/ngPrint/blob/master/ngPrint.min.js)
 
 Usage
 -----
@@ -34,6 +34,10 @@ For example:
 ```html
 <button class="btn btn-primary" ng-print print-element-id="printThisElement"><i class="fa fa-print"></i> Print</button>
 ```
+
+As shown in the Following Post:
+-----
+http://blogs.microsoft.co.il/gilf/2014/08/09/building-a-simple-angularjs-print-directive/
 
 License
 ----
