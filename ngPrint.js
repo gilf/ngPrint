@@ -1,5 +1,8 @@
 (function (angular) {
     'use strict';
+
+    var mod = angular.module('ngPrint', []);
+
     function printDirective() {
         var printSection = document.getElementById('printSection');
 
@@ -36,5 +39,6 @@
             restrict: 'A'
         };
     }
-    angular.module('ngPrint').directive('ngPrint', [printDirective]);
+
+    mod.directive('ngPrint', [printDirective]);
 }(window.angular));
