@@ -28,6 +28,13 @@ module.exports = function (grunt) {
                 }
             }
         },
+        cssmin: {
+            dist: {
+                files: {
+                    'ngPrint.min.css': 'ngPrint.css'
+                }
+            }
+        },
         ngdocs: {
             options: {
                 startPage: '/',
@@ -35,15 +42,16 @@ module.exports = function (grunt) {
                 html5Mode: false
             },
             api: {
-                src: 'angular-moment.js',
-                title: 'angular-moment API Documentation'
+                src: 'ngPrint.js',
+                title: 'ngPrint API Documentation'
             }
         }
     });
 
     grunt.registerTask('build', [
         'jshint',
-        'uglify'
+        'uglify',
+        'cssmin'
     ]);
 
     grunt.registerTask('default', ['build']);
