@@ -29,7 +29,7 @@ var myapp = angular.module('myapp', ['ngPrint']);
 ### ng-print directive
 Use the `ng-print` directive on a button to indicate that it is a print button.
 Use the `print-element-id` attribute to indicate the id of the element you want to print.
-For example:
+For example, if you want to print the whole page you can wrap it in an element with the id of myPage and set the `print-element-id` attribute to myPage.
 
 ```html
 <button class="btn btn-primary" ng-print print-element-id="printThisElement"><i class="fa fa-print"></i> Print</button>
@@ -38,6 +38,10 @@ For example:
 As shown in the Following Post:
 -----
 http://blogs.microsoft.co.il/gilf/2014/08/09/building-a-simple-angularjs-print-directive/
+
+A working plnkr
+-----
+http://plnkr.co/edit/HkTTHfeLM8buwbWqHuOm?p=preview
 
 License
 ----
