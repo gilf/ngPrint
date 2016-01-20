@@ -6,11 +6,11 @@
 
 @media print {
     body * {
-        visibility:hidden;
+        display:none;
     }
 
     #printSection, #printSection * {
-        visibility:visible;
+        display: inline;
     }
 
     #printSection {
