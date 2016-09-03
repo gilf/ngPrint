@@ -1,0 +1,26 @@
+{
+  "name": "ngPrint",
+  "main": "ngPrint.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gilf/ngPrint",
+  "authors": [
+    "Gil Fink <gil.fink@gmail.com>"
+  ],
+  "description": "AngularJS directive to enable browser printing",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "AngularJS",
+    "directive",
+    "print"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
