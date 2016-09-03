@@ -21,10 +21,23 @@
                 }
             });
 
-            window.onafterprint = function () {
-                // clean the print section before adding new content
-                printSection.innerHTML = '';
-            };
+            if (window.matchMedia) {
+                var mediaQueryList = window.matchMedia('print');
+                mediaQueryList.addListener(function(mql) {
+                    if (!mql.matches) {
+                        afterPrint();
+                    } else {
+                        // before print (currently does nothing)
+                    }
+                });
+            }
+
+            window.onafterprint = afterPrint;
+        }
+
+        function afterPrint() {
+            // clean the print section before adding new content
+            printSection.innerHTML = '';
         }
 
         function printElement(elem) {

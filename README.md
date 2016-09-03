@@ -3,7 +3,7 @@ ngPrint
 
 AngularJS directive for browser printing.
 
-Copyright (C) 2014, 2015, Gil Fink <gil@sparxys.com>
+Copyright (C) 2014, 2015, 2016 Gil Fink <gil@sparxys.com>
 
 Installation
 ------------
