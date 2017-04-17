@@ -1,11 +1,14 @@
 {
   "name": "ngPrint",
   "main": "ngPrint.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/gilf/ngPrint",
   "authors": [
     "Gil Fink <gil.fink@gmail.com>"
   ],
+  "dependencies": {
+    "angular": "^1.0.0"
+  },
   "description": "AngularJS directive to enable browser printing",
   "moduleType": [
     "globals"
