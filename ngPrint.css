@@ -10,7 +10,35 @@
     }
 
     #printSection, #printSection * {
-        display: inline;
+        display: inline-block;
+    }
+
+    table {
+        table-layout: auto;
+    }
+
+    td {
+        border: 1px solid #ccc;
+        width: 160px;
+        height: auto;
+    }
+
+    th {
+        border: 1px solid #ccc;
+        width: 160px;
+        height: auto;
+    }
+
+    th:nth-child(2) {
+        border: 1px solid #ccc;
+        width: 210px;
+        height: auto;
+    }
+
+    td:nth-child(2) {
+        border: 1px solid #ccc;
+        width: 210px;
+        height: auto;
     }
 
     #printSection {
